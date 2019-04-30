@@ -1,0 +1,29 @@
+################################################################################
+- name: Run a module from inside a collection
+  hosts: localhost
+  tasks:
+    - name: Gather some real Facts.
+      newswangerd.summit_demo.real_facts:
+        name: Richard Stallman
+      register: testout
+    - debug:
+        msg: "{{ testout }}"
+
+################################################################################
+- name: Run a module from inside a collection using the collections keyword
+  hosts: localhost
+  collections:
+    - newswangerd.summit_demo
+  tasks:
+    - name: Gather some real Facts.
+      real_facts:
+        name: Richard Stallman
+      register: testout
+    - debug:
+        msg: "{{ testout }}"
+
+################################################################################
+- name: Run a role from inside of a collection
+  hosts: localhost
+  roles:
+    - "newswangerd.summit_demo.factoid"

@@ -1,0 +1,15 @@
+galaxy_info:
+  author: David Newswanger
+  description: A simple role for demoing Ansible Content distribution with collections.
+  company: Red Hat
+  license: MIT
+
+  min_ansible_version: 1.2
+  platforms:
+    - name: Fedora
+      versions:
+        - 25
+
+  galaxy_tags: ["demo", "facts", "collections"]
+
+dependencies: []

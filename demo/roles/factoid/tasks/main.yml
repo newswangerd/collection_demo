@@ -1,0 +1,6 @@
+- name: Gather some real facts FROM A ROLE!
+  newswangerd.summit_demo.real_facts:
+    name: RMS
+  register: testout
+- debug:
+    msg: "{{ testout }}"

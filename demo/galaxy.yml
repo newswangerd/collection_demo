@@ -1,6 +1,6 @@
 namespace: "newswangerd"
 name: "demo"
-version: "1.0.1"
+version: "1.0.6"
 description: "Collection for demoing collections"
 authors: ["David Newswanger"]
 license: ["MIT"]

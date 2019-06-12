@@ -14,8 +14,14 @@ demo/
 │   └── modules
 │       └── real_facts.py
 └── roles
-    └── factoid
-        ├── README.md
+    ├── factoid
+    |   ├── README.md
+    |   ├── meta
+    |   │   └── main.yaml
+    |   └── tasks
+    |       └── main.yml
+    └── deltoid
+        ├── README.rst
         ├── meta
         │   └── main.yaml
         └── tasks

@@ -1,0 +1,6 @@
+- name: Gather some real facts FROM A DELTOID ROLE!
+  newswangerd.demo.real_facts:
+    name: RMS
+  register: testout
+- debug:
+    msg: "{{ testout }}"

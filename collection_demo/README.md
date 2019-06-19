@@ -1,6 +1,13 @@
-# What is a collection?
+# How to use this Demo
 
-To see a demo using this collection [check out this video here](https://www.youtube.com/watch?v=d792W44I5KM).
+1. Install the latest version of mazer: `pip install mazer`.
+2. Install or upgrade to Ansible 2.8+
+3. Download this collection from galaxy: `mazer install newswangerd.collection_demo`
+4. Execute the `real_facts` module using `ansible localhost -m newswangerd.collection_demo.real_facts`
+
+To see a recorded demo using this collection [check out this video here](https://www.youtube.com/watch?v=d792W44I5KM).
+
+# What is a collection?
 
 A collection is a distribution format for delivering all types of Ansible Content.
 
@@ -28,7 +35,7 @@ collection_demo/
             └── main.yml
 ```
 
-It includes a `galaxy.yml` file for defining the collections name, version, tags, license and other meta data as well as
+It includes a `galaxy.yml` file for defining the collections name, version, tags, license and other metadata as well as
 directories for roles and plugins. The roles directory contains a list of traditional roles and the plugins directory can
 contain subdirectories for all of the Ansible plugin types such as modules, inventory, callback, connection plugins and more.
 

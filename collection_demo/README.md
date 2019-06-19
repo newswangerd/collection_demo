@@ -1,6 +1,6 @@
 # What is a collection?
 
-To see a walkthrough using this collection [check out this video here](https://www.youtube.com/watch?v=d792W44I5KM).
+To see a demo using this collection [check out this video here](https://www.youtube.com/watch?v=d792W44I5KM).
 
 A collection is a distribution format for delivering all types of Ansible Content.
 

@@ -37,7 +37,7 @@ contain subdirectories for all of the Ansible plugin types such as modules, inve
 Collections are currently built using [mazer](https://github.com/ansible/mazer/). To build this collection:
 
 ```
-$ cd demo
+$ cd collection_demo
 $ mazer build
 ```
 

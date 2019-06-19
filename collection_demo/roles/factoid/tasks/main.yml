@@ -1,5 +1,5 @@
 - name: Gather some real facts FROM A ROLE!
-  newswangerd.demo.real_facts:
+  newswangerd.collection_demo.real_facts:
     name: RMS
   register: testout
 - debug:

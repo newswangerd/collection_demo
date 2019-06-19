@@ -108,7 +108,7 @@ FACTS = [
     "{name} never steps down, he shifts the universe up.",
     "{name} doesn't maintain code, he stares at it until it fixes itself out of reverence.",
     "{name} doesn't use an editor, he sets the fundamental constants of the universe so that a magnetic platter with his code on it evolves itself.",
-    "{name} doesnâ€™t code, he dares the computer to not do his bidding.",
+    "{name} doesn't code, he dares the computer to not do his bidding.",
     "Global warming is caused by {name}'s rage towards non-free software.",
     "Rather than being birthed like a normal child, {name} instead instantiated himself polymorphically. Shortly thereafter he grew a beard.",
     "{name} discovered extra-terrestrial life but killed them because they distributed non-free software.",

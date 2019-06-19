@@ -7,7 +7,7 @@ A collection is a distribution format for delivering all types of Ansible Conten
 The standard format for a collection looks something like this:
 
 ```
-demo/
+collection_demo/
 ├── README.md
 ├── galaxy.yml
 ├── plugins
@@ -63,7 +63,7 @@ Collections in playbooks can be used like so:
   hosts: localhost
   tasks:
     - name: Gather some real Facts.
-      newswangerd.demo.real_facts:
+      newswangerd.collection_demo.real_facts:
         name: Richard Stallman
       register: testout
     - debug:
@@ -73,7 +73,7 @@ Collections in playbooks can be used like so:
 - name: Run a module from inside a collection using the collections keyword
   hosts: localhost
   collections:
-    - newswangerd.demo
+    - newswangerd.collection_demo
   tasks:
     - name: Gather some real Facts.
       real_facts:
@@ -86,5 +86,5 @@ Collections in playbooks can be used like so:
 - name: Run a role from inside of a collection
   hosts: localhost
   roles:
-    - "newswangerd.demo.factoid"
+    - "newswangerd.collection_demo.factoid"
 ```

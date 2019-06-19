@@ -3,7 +3,7 @@
   hosts: localhost
   tasks:
     - name: Gather some real Facts.
-      newswangerd.demo.real_facts:
+      newswangerd.collection_demo.real_facts:
         name: Richard Stallman
       register: testout
     - debug:
@@ -13,7 +13,7 @@
 - name: Run a module from inside a collection using the collections keyword
   hosts: localhost
   collections:
-    - newswangerd.demo
+    - newswangerd.collection_demo
   tasks:
     - name: Gather some real Facts.
       real_facts:
@@ -26,4 +26,4 @@
 - name: Run a role from inside of a collection
   hosts: localhost
   roles:
-    - "newswangerd.demo.factoid"
+    - "newswangerd.collection_demo.factoid"

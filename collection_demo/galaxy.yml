@@ -1,6 +1,6 @@
 namespace: "newswangerd"
 name: "collection_demo"
-version: "1.0.3"
+version: "1.0.4"
 description: "Demo showing how to distribute modules and plugins using collections in Ansible 2.8"
 authors: ["David Newswanger"]
 license: ["MIT"]
@@ -8,4 +8,4 @@ readme: README.md
 tags:
   - demo
   - collection
-repository: "https://www.github.com/my_org/my_collection"
+repository: "https://github.com/newswangerd/collection_demo"

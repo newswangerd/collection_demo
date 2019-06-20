@@ -42,6 +42,7 @@ RETURN = '''
 fact:
     description: Actual facts
     type: str
+    sample: Richard Stallman takes notes in binary.
 '''
 
 from ansible.module_utils.basic import AnsibleModule

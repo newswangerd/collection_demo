@@ -4,7 +4,7 @@
   tasks:
     - name: Gather some real Facts.
       newswangerd.collection_demo.real_facts:
-        name: Richard Stallman
+        name: John Snow
       register: testout
     - debug:
         msg: "{{ testout }}"
@@ -17,7 +17,7 @@
   tasks:
     - name: Gather some real Facts.
       real_facts:
-        name: Richard Stallman
+        name: Jane Doe
       register: testout
     - debug:
         msg: "{{ testout }}"

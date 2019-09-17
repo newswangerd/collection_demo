@@ -1,6 +1,6 @@
 - name: Gather some real facts FROM A DELTOID ROLE!
   newswangerd.collection_demo.real_facts:
-    name: RMS
+    name: John Doe
   register: testout
 - debug:
     msg: "{{ testout }}"

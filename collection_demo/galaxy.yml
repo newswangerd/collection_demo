@@ -1,6 +1,6 @@
 namespace: "newswangerd"
-name: "collection_demo"
-version: "1.0.9"
+name: "the_collectionizer"
+version: "2.0.1"
 description: "Demo showing how to distribute modules and plugins using collections in Ansible 2.8"
 authors: ["David Newswanger"]
 license: ["MIT"]

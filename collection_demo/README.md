@@ -11,4 +11,8 @@ To see a recorded demo using this collection [check out this video here](https:/
 
 A collection is a distribution format for delivering all types of Ansible Content.
 
-To learn more about using and creating collections, [check out the official documentation here](https://docs.ansible.com/ansible/devel/dev_guide/collections_tech_preview.html)
+To learn more about using and creating collections, check out the official documentation:
+
+* https://docs.ansible.com/ansible/latest/user_guide/collections_using.html
+* https://docs.ansible.com/ansible/latest/dev_guide/developing_collections.html
+* https://docs.ansible.com/ansible/latest/dev_guide/collections_galaxy_meta.html
